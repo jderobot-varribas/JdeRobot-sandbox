@@ -1,3 +1,6 @@
+## jderobot-sandbox
+/src/
+
 # https://raw.githubusercontent.com/github/gitignore/master/CMake.gitignore
 CMakeCache.txt
 CMakeFiles

@@ -1,7 +1,7 @@
 # CHECK PCL
 
 include(FindPkgConfig)
-find_package(PCL QUIET)
+find_package(PCL 1.7 QUIET)
 INCLUDE_DIRECTORIES( ${PCL_INCLUDE_DIRS})
 if (PCL_INCLUDE_DIRS)
     add_definitions(${PCL_DEFINITIONS})

@@ -12,6 +12,14 @@ include(cmake/Tools/find_packages.cmake)
 
 
 ## Dependencies
+# allow Deps to populate
+#  * include_directories
+#  * link_directories
+# for JdeRobot libraries
+set(INJECT_JDE_LIBS ON)
+# for 3rd party libraries
+set(INJECT_DEPS_LIBS OFF)
+
 # alphabetical sorted to handle dependency order
 # this means that you must to prepend letter based sort at directory level
 file(GLOB_RECURSE CMakeLists_files "cmake/Deps/**/CMakeLists.txt")

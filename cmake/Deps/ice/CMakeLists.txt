@@ -1,6 +1,6 @@
 SET(CMAKE_MODULE_PATH
 	${CMAKE_MODULE_PATH}
-	"${CMAKE_CURRENT_LIST_DIR}/find_modules"
+	"${CMAKE_CURRENT_LIST_DIR}/CMake"
 )
 
 SET(slice_path /usr/share/slice)

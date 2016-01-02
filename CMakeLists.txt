@@ -9,6 +9,8 @@ cmake_minimum_required(VERSION 2.8)
 ## Tools
 include(cmake/Tools/check_compiler.cmake)
 include(cmake/Tools/find_packages.cmake)
+include(cmake/Tools/declare_package.cmake)
+include(cmake/Tools/use_package.cmake)
 
 
 ## Dependencies

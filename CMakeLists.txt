@@ -11,6 +11,7 @@ include(cmake/Tools/check_compiler.cmake)
 include(cmake/Tools/find_packages.cmake)
 include(cmake/Tools/declare_package.cmake)
 include(cmake/Tools/use_package.cmake)
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake/Tools/CMake")
 
 
 ## Dependencies

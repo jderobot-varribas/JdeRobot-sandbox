@@ -1,3 +1,7 @@
+#  Copyright (C) 2015 JdeRobot Developers Team
+#  Authors:
+#    Victor Arribas <v.arribas.urjc@gmail.com>
+
 ## The hard way (no help)
 
 set(libname easyiceconfig)

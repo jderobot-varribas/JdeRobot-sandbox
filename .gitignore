@@ -139,6 +139,9 @@ Makefile*
 *.qmlproject.user
 *.qmlproject.user.*
 
+#QtCtreator CMake
+CMakeLists.txt.user
+
 
 # https://raw.githubusercontent.com/github/gitignore/master/Global/Emacs.gitignore
 # -*- mode: gitignore; -*-

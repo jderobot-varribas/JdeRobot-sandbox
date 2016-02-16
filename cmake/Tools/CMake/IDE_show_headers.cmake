@@ -1,4 +1,4 @@
-#  Copyright (C) 2015-2016 JDE Developers Team
+#  Copyright (C) 2015-2016 JdeRobot-ng
 #  Authors:
 #    Victor Arribas <v.arribas.urjc@gmail.com>
 
